@@ -314,3 +314,144 @@ Stack trace:
 #3 /home/kl2ag1/public_html/phpapp/index.php(22): include_once('/home/kl2ag1/pu...')
 #4 {main}
   thrown in /home/kl2ag1/public_html/phpapp/formularz.html on line 7
+[08-Nov-2019 08:59:44 Europe/Warsaw] PHP Notice:  Undefined variable: r in /home/kl2ag1/public_html/phpapp/inc/db.php on line 30
+[08-Nov-2019 09:01:23 Europe/Warsaw] PHP Notice:  Undefined variable: r in /home/kl2ag1/public_html/phpapp/inc/db.php on line 25
+[08-Nov-2019 09:01:24 Europe/Warsaw] PHP Notice:  Undefined variable: r in /home/kl2ag1/public_html/phpapp/inc/db.php on line 25
+[08-Nov-2019 09:02:07 Europe/Warsaw] PHP Notice:  Undefined variable: r in /home/kl2ag1/public_html/phpapp/inc/db.php on line 25
+[08-Nov-2019 09:02:08 Europe/Warsaw] PHP Notice:  Undefined variable: r in /home/kl2ag1/public_html/phpapp/inc/db.php on line 25
+[08-Nov-2019 09:02:10 Europe/Warsaw] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: posty in /home/kl2ag1/public_html/phpapp/formularz.html:7
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/formularz.html(7): PDO->exec('INSERT INTO pos...')
+#1 /home/kl2ag1/public_html/phpapp/inc/functions.php(33): include('/home/kl2ag1/pu...')
+#2 /home/kl2ag1/public_html/phpapp/inc/template.php(34): get_page_content('formularz')
+#3 /home/kl2ag1/public_html/phpapp/index.php(22): include_once('/home/kl2ag1/pu...')
+#4 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/formularz.html on line 7
+[08-Nov-2019 09:02:36 Europe/Warsaw] PHP Notice:  Undefined variable: r in /home/kl2ag1/public_html/phpapp/inc/db.php on line 25
+[08-Nov-2019 09:02:36 Europe/Warsaw] PHP Notice:  Undefined variable: r in /home/kl2ag1/public_html/phpapp/inc/db.php on line 25
+[08-Nov-2019 09:02:37 Europe/Warsaw] PHP Notice:  Undefined variable: r in /home/kl2ag1/public_html/phpapp/inc/db.php on line 25
+[08-Nov-2019 09:02:40 Europe/Warsaw] PHP Notice:  Undefined variable: r in /home/kl2ag1/public_html/phpapp/inc/db.php on line 25
+[08-Nov-2019 09:02:45 Europe/Warsaw] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: posty in /home/kl2ag1/public_html/phpapp/formularz.html:7
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/formularz.html(7): PDO->exec('INSERT INTO pos...')
+#1 /home/kl2ag1/public_html/phpapp/inc/functions.php(33): include('/home/kl2ag1/pu...')
+#2 /home/kl2ag1/public_html/phpapp/inc/template.php(34): get_page_content('formularz')
+#3 /home/kl2ag1/public_html/phpapp/index.php(22): include_once('/home/kl2ag1/pu...')
+#4 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/formularz.html on line 7
+[08-Nov-2019 09:06:47 Europe/Warsaw] PHP Notice:  Undefined variable: r in /home/kl2ag1/public_html/phpapp/inc/db.php on line 25
+[08-Nov-2019 09:06:50 Europe/Warsaw] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: posty in /home/kl2ag1/public_html/phpapp/formularz.html:7
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/formularz.html(7): PDO->exec('INSERT INTO pos...')
+#1 /home/kl2ag1/public_html/phpapp/inc/functions.php(33): include('/home/kl2ag1/pu...')
+#2 /home/kl2ag1/public_html/phpapp/inc/template.php(34): get_page_content('formularz')
+#3 /home/kl2ag1/public_html/phpapp/index.php(22): include_once('/home/kl2ag1/pu...')
+#4 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/formularz.html on line 7
+[08-Nov-2019 09:07:17 Europe/Warsaw] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 6 database table is locked in /home/kl2ag1/public_html/phpapp/inc/db.php:14
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/db.php(14): PDO->exec('DROP TABLE IF E...')
+#1 /home/kl2ag1/public_html/phpapp/index.php(17): init_tables()
+#2 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 14
+[08-Nov-2019 09:13:58 Europe/Warsaw] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: mode must be an integer in /home/kl2ag1/public_html/phpapp/inc/db.php:14
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/db.php(14): PDO->query('SELECT name FRO...', Array)
+#1 /home/kl2ag1/public_html/phpapp/index.php(17): init_tables()
+#2 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 14
+[08-Nov-2019 09:20:44 Europe/Warsaw] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: mode must be an integer in /home/kl2ag1/public_html/phpapp/inc/db.php:14
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/db.php(14): PDO->query('SELECT name FRO...', Array)
+#1 /home/kl2ag1/public_html/phpapp/index.php(17): init_tables()
+#2 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 14
+[08-Nov-2019 09:20:44 Europe/Warsaw] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: mode must be an integer in /home/kl2ag1/public_html/phpapp/inc/db.php:14
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/db.php(14): PDO->query('SELECT name FRO...', Array)
+#1 /home/kl2ag1/public_html/phpapp/index.php(17): init_tables()
+#2 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 14
+[08-Nov-2019 09:20:45 Europe/Warsaw] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: mode must be an integer in /home/kl2ag1/public_html/phpapp/inc/db.php:14
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/db.php(14): PDO->query('SELECT name FRO...', Array)
+#1 /home/kl2ag1/public_html/phpapp/index.php(17): init_tables()
+#2 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 14
+[08-Nov-2019 09:20:45 Europe/Warsaw] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: mode must be an integer in /home/kl2ag1/public_html/phpapp/inc/db.php:14
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/db.php(14): PDO->query('SELECT name FRO...', Array)
+#1 /home/kl2ag1/public_html/phpapp/index.php(17): init_tables()
+#2 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 14
+[08-Nov-2019 09:20:45 Europe/Warsaw] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: mode must be an integer in /home/kl2ag1/public_html/phpapp/inc/db.php:14
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/db.php(14): PDO->query('SELECT name FRO...', Array)
+#1 /home/kl2ag1/public_html/phpapp/index.php(17): init_tables()
+#2 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 14
+[08-Nov-2019 09:20:45 Europe/Warsaw] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: mode must be an integer in /home/kl2ag1/public_html/phpapp/inc/db.php:14
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/db.php(14): PDO->query('SELECT name FRO...', Array)
+#1 /home/kl2ag1/public_html/phpapp/index.php(17): init_tables()
+#2 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 14
+[08-Nov-2019 09:20:45 Europe/Warsaw] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: mode must be an integer in /home/kl2ag1/public_html/phpapp/inc/db.php:14
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/db.php(14): PDO->query('SELECT name FRO...', Array)
+#1 /home/kl2ag1/public_html/phpapp/index.php(17): init_tables()
+#2 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 14
+[08-Nov-2019 09:28:52 Europe/Warsaw] PHP Notice:  Undefined index:  in /home/kl2ag1/public_html/phpapp/formularz.html on line 15
+[08-Nov-2019 09:28:55 Europe/Warsaw] PHP Notice:  Undefined index:  in /home/kl2ag1/public_html/phpapp/formularz.html on line 15
+[08-Nov-2019 09:28:57 Europe/Warsaw] PHP Notice:  Undefined index:  in /home/kl2ag1/public_html/phpapp/formularz.html on line 15
+[08-Nov-2019 09:29:16 Europe/Warsaw] PHP Notice:  Undefined index:  in /home/kl2ag1/public_html/phpapp/formularz.html on line 15
+[08-Nov-2019 09:29:18 Europe/Warsaw] PHP Notice:  Undefined index:  in /home/kl2ag1/public_html/phpapp/formularz.html on line 15
+[08-Nov-2019 09:36:52 Europe/Warsaw] PHP Notice:  Undefined variable: db in /home/kl2ag1/public_html/phpapp/formularz.html on line 16
+[08-Nov-2019 09:36:52 Europe/Warsaw] PHP Fatal error:  Uncaught Error: Call to a member function exec() on null in /home/kl2ag1/public_html/phpapp/formularz.html:16
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/functions.php(33): include()
+#1 /home/kl2ag1/public_html/phpapp/inc/template.php(34): get_page_content('formularz')
+#2 /home/kl2ag1/public_html/phpapp/index.php(22): include_once('/home/kl2ag1/pu...')
+#3 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/formularz.html on line 16
+[08-Nov-2019 09:36:53 Europe/Warsaw] PHP Notice:  Undefined variable: db in /home/kl2ag1/public_html/phpapp/formularz.html on line 16
+[08-Nov-2019 09:36:53 Europe/Warsaw] PHP Fatal error:  Uncaught Error: Call to a member function exec() on null in /home/kl2ag1/public_html/phpapp/formularz.html:16
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/functions.php(33): include()
+#1 /home/kl2ag1/public_html/phpapp/inc/template.php(34): get_page_content('formularz')
+#2 /home/kl2ag1/public_html/phpapp/index.php(22): include_once('/home/kl2ag1/pu...')
+#3 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/formularz.html on line 16
+[08-Nov-2019 09:36:57 Europe/Warsaw] PHP Notice:  Undefined variable: db in /home/kl2ag1/public_html/phpapp/formularz.html on line 16
+[08-Nov-2019 09:36:57 Europe/Warsaw] PHP Fatal error:  Uncaught Error: Call to a member function exec() on null in /home/kl2ag1/public_html/phpapp/formularz.html:16
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/functions.php(33): include()
+#1 /home/kl2ag1/public_html/phpapp/inc/template.php(34): get_page_content('formularz')
+#2 /home/kl2ag1/public_html/phpapp/index.php(22): include_once('/home/kl2ag1/pu...')
+#3 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/formularz.html on line 16
+[08-Nov-2019 09:36:57 Europe/Warsaw] PHP Notice:  Undefined variable: db in /home/kl2ag1/public_html/phpapp/formularz.html on line 16
+[08-Nov-2019 09:36:57 Europe/Warsaw] PHP Fatal error:  Uncaught Error: Call to a member function exec() on null in /home/kl2ag1/public_html/phpapp/formularz.html:16
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/functions.php(33): include()
+#1 /home/kl2ag1/public_html/phpapp/inc/template.php(34): get_page_content('formularz')
+#2 /home/kl2ag1/public_html/phpapp/index.php(22): include_once('/home/kl2ag1/pu...')
+#3 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/formularz.html on line 16
+[08-Nov-2019 09:36:58 Europe/Warsaw] PHP Notice:  Undefined variable: db in /home/kl2ag1/public_html/phpapp/formularz.html on line 16
+[08-Nov-2019 09:36:58 Europe/Warsaw] PHP Fatal error:  Uncaught Error: Call to a member function exec() on null in /home/kl2ag1/public_html/phpapp/formularz.html:16
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/functions.php(33): include()
+#1 /home/kl2ag1/public_html/phpapp/inc/template.php(34): get_page_content('formularz')
+#2 /home/kl2ag1/public_html/phpapp/index.php(22): include_once('/home/kl2ag1/pu...')
+#3 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/formularz.html on line 16
+[08-Nov-2019 09:36:59 Europe/Warsaw] PHP Notice:  Undefined variable: db in /home/kl2ag1/public_html/phpapp/formularz.html on line 16
+[08-Nov-2019 09:36:59 Europe/Warsaw] PHP Fatal error:  Uncaught Error: Call to a member function exec() on null in /home/kl2ag1/public_html/phpapp/formularz.html:16
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/functions.php(33): include()
+#1 /home/kl2ag1/public_html/phpapp/inc/template.php(34): get_page_content('formularz')
+#2 /home/kl2ag1/public_html/phpapp/index.php(22): include_once('/home/kl2ag1/pu...')
+#3 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/formularz.html on line 16
