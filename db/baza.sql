@@ -6,9 +6,14 @@ tytul VARCHAR(30) NOT NULL,
 pozycja INTEGER DEFAULT 0
 );
 
+INSERT INTO menu VALUES(NULL, 'witam','Witamy',1);
+INSERT INTO menu VALUES(NULL, 'formularz','Formularz',2);
+INSERT INTO menu VALUES(NULL, 'userform','Użytkownicy',3);
+INSERT INTO menu VALUES(NULL, 'klasa','Klasa',4);
+
 CREATE TABLE posty (
 id INTEGER PRIMARY KEY	AUTOINCREMENT,
-tresc VARCHAR(20) NOT NULL
+tresc VARCHAR NOT NULL
 );
 
 DROP TABLE IF EXISTS users;
@@ -23,9 +28,7 @@ data DATE
 
 
 
-INSERT INTO menu VALUES(NULL, 'witam','Witamy',1);
-INSERT INTO menu VALUES(NULL, 'formularz','Formularz',2);
-INSERT INTO menu VALUES(NULL, 'klasa','Klasa',3);
+
 
 
 -- INSERT INTO menu(tytul, plik, id) VALUES('Klasa', 'klasa', NULL);

@@ -455,3 +455,4 @@ Stack trace:
 #2 /home/kl2ag1/public_html/phpapp/index.php(22): include_once('/home/kl2ag1/pu...')
 #3 {main}
   thrown in /home/kl2ag1/public_html/phpapp/formularz.html on line 16
+[15-Nov-2019 09:38:40 Europe/Warsaw] PHP Notice:  Undefined index: wiadomosc in /home/kl2ag1/public_html/phpapp/userform.html on line 9
